@@ -1,17 +1,31 @@
 .ipynb_checkpoints/
 
 .idea/
+.env
+.env.local
+.env.*.local
+*.env
+.envrc
 
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyo
+*.pyd
+.Python
+
+.venv/
+venv/
+env/
+.uv/
+
+# Byte-compiled / optimized / DLL files
 
 # C extensions
 *.so
 
 # Distribution / packaging
-.Python
+
 build/
 develop-eggs/
 dist/
